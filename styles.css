@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 1100px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .left, .right {
+            width: 200px;
+        }
+
+        .center {
+            width: 600px;
+        }
+
+        img.thumb {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .text-block {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
